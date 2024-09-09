@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(53, 53, 243);  
+    /* border: 2px solid yellow; */
+    padding-top:0;
+    padding-bottom:0;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    padding-top:0;
+    padding-bottom:0;
+}
+
+.logo {
+    padding:0 23px 0 23px;
+    overflow: hidden;
+}
+
+.container {
+    min-height: calc(100vh - 6vh - 10vh);
+    
+    
+
+}
+
+
+
+header nav ul{
+    height: 6vh;
+    background-color: #3535f3;
+    color: white;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: flex-start;
+   flex-direction: row;
+    padding-top:0;
+    padding-bottom:0;
+    align-items: center;
+}
+
+li {
+    list-style: none ;
+    padding: 0 23px 0 23px;
+    
+}
+li:hover {
+    list-style: none ;
+    padding: 0 23px 0 23px;
+    font-weight: bolder;
+    border: 2px solid goldenrod;
+    color: #8181e1;
+    font-size: larger;
+
+}
+/* Let's learn to design the search bar */
+.searchbar input{
+
+    width: 42vw;
+    height: 23px;
+    margin: 0 0 0 40px ;
+    border-radius: 7px;
+    padding:0 12px;
+}
+
+.btn {
+
+    background-color: #3535f3;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    /* when the pointer will go to search it will be changed into a hand pointer */
+}
+
+
+footer {
+   height: 10vh;
+   background-color: rgb(21, 17, 17);
+   color: white;
+}
+
+.fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.slider {
+     
+    display: flex;
+    justify-content: center;
+}
+
+.img1{
+    transform: translate(-90vw);
+    animation: slide1 2s 3s  ;
+
+}
+.img2{
+    transform: translate(-72vw);
+    animation: slide2 2s 2s ;
+    
+}
+.img3{
+    transform: translate(-118vw);
+    animation: slide3 2s 1s ;
+}
+
+@keyframes slide3 {
+    0% {
+        transform: translate(-118vw);
+      }
+      50% {
+        transform: translate(-40vw);
+      }
+      100% {
+        transform: translate(36vw);
+      }
+}
+@keyframes slide2 {
+    0% {
+        transform: translate(-72vw);
+      }
+      50% {
+        transform: translate(0vw);
+      }
+      100% {
+        transform: translate(80vw);
+      }
+    
+}
+/* @keyframes slides2b {
+    0%{
+        transform: translate(0vw);
+    }
+    100%{
+        
+    }
+} */
+@keyframes slide1 {
+    0% {
+        transform: translate(-90vw);
+      }
+      50%{
+        transform: translate(40vw);
+      }
+      100% {
+        transform: translate(110vw);
+      }
+    
+}
+.card{
+    background-color: rgb(174, 100, 176);
+}
+.card-item{
+ padding: 0 23px 0 23px;
+ display: flex;
+ justify-content: flex-start;
+ 
+ 
+}

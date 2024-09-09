@@ -1,0 +1,6 @@
+/* This file is used to store the classes to mark all the texts which gonna be in the center */
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
